@@ -30,4 +30,10 @@
 
 ![QQ截图20201009130648](https://i.loli.net/2020/10/09/pvoDcHLTPiUhEtI.png)
 
+### 安装方法
+
+1. 通过Typora的**设置->主题->打开主题文件夹**，来打开文件夹。
+2. 将`flora文件夹`、`flora-hans.css`以及`flora-dark.css`复制到typora的主题文件夹下。
+3. 重启Typora，就可以选择新的FloraDark主题了。
+
 如果有帮助到您，请帮忙点个star，这对我很重要，谢谢。
