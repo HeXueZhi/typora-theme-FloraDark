@@ -77,8 +77,9 @@ del {
 
 mark {
   padding: 2px 1px;
-  background: #d3ffa4;
-  color: inherit;
+  background: rgb(175, 175, 0);
+  border-radius: 2px;
+  color: #282c34;
 }
 
 blockquote {
@@ -223,7 +224,7 @@ th {
 #write h5::before,
 #write h6::before {
   position: absolute;
-  right: -1.5rem;
+  left: -1.5rem;
   bottom: 0;
   color: #b4b4b4;
   font-size: 1rem;
@@ -231,7 +232,7 @@ th {
   font-variant: "small-caps";
   border: 0;
   border-radius: 0;
-  left: auto;
+  right: auto;
   float: none;
   padding: 0;
   vertical-align: baseline;
