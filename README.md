@@ -13,15 +13,9 @@
 3. 修改表格，增加分割线及表头深色显示。
 4. 在此基础上增加了黑色主题并修复了bug。
 
-### Preview
+### Dark Preview
 
-#### English Preview
-
-![QQ截图20201009002356](https://i.loli.net/2020/10/09/m7jzsXURanhP6xg.png)
-
-#### Chinese Preview
-
-![QQ截图20201009003225](https://i.loli.net/2020/10/09/PGcAu6ZtMTNeLjm.png)
+![QQ截图20201013225453](https://i.loli.net/2020/10/13/Bg5TrUX98odEjsz.png)
 
 ### Light Preview
 
@@ -30,12 +24,6 @@
 1. 调大了字体
 2. 表格添加分割线，并且加深表头颜色
 3. 代码块的渲染颜色
-
-#### English Preview
-
-![QQ截图20201009130455](https://i.loli.net/2020/10/09/612kuRWJPE8baNr.png)
-
-#### Chinese Preview
 
 ![QQ截图20201009130648](https://i.loli.net/2020/10/09/pvoDcHLTPiUhEtI.png)
 
