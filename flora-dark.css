@@ -1,7 +1,11 @@
 /* 主题基础样式 */
 :root {
-  --bg-color: rgb(46, 50, 53);
-  --text-color: #333;
+  /* --bg-color: rgb(46, 50, 53); */
+  --bg-color: #181a1b;
+  --side-bar-bg-color: #2E3033;
+  /* --bg-color: white; */
+  /* --text-color: #333; */
+  --text-color: #abc0d0;
   --md-char-color: #b4b4b4;
   --meta-content-color: #757575;
   --table-border-color: white;
@@ -22,6 +26,7 @@
   --monospace: "Cousine", "Consolas", monospace;
   --node-fill: #fbfbfb;
   --node-border: #0000001a;
+  /* --select-text-bg-color: #dae3ea; */
 }
 
 /* 整个写作区域样式 */
@@ -49,12 +54,22 @@
 html,
 body {
   font-family: "Operator Mono", "Source Han Sans";
-  background-color: #181a1b;
+  background: var(--bg-color);
+  /* background: #181a1b; */
+  fill: currentColor;
   color:#abc0d0;
 }
 
 body {
   font-size: 1.2rem;
+}
+
+/* scrollbar */
+::-webkit-scrollbar-thumb {
+  /* background: -webkit-gradient(linear, left bottom, right top, from(#41b782), to(#86d169)) !important;
+  background: linear-gradient(to top right, #41b782, #86d169) !important; */
+  background: #db4d52 !important;
+  border-radius: 4px;
 }
 
 h1,
@@ -298,9 +313,9 @@ th {
   box-shadow: none;
 }
 
-#write .md-task-list-item > input:hover {
+/* #write .md-task-list-item > input:hover {
   background: #d0d0d0;
-}
+} */
 
 #write .md-task-list-item > input[checked]::before {
   content: "";
@@ -449,12 +464,12 @@ th {
 }
 
 #write .md-search-hit {
-  background: #db4d5230;
+  background: #db4d5285;
   border-radius: 0.125rem;
 }
 
 #write .md-search-select {
-  background: #db4d5270;
+  background: #cc3f44cc;
   border: 1px solid #9292928f;
   padding: 0 1px;
 }
@@ -588,6 +603,10 @@ th {
 
 #write pre[lang="mermaid"][mermaid-type="gantt"] .grid .tick line {
   stroke: #333;
+}
+
+.modal-content {
+  background: var(--bg-color);
 }
 
 .modal-content .modal-header,
@@ -745,6 +764,11 @@ th {
   border-color: #ffffff26;
 }
 
+#typora-sidebar .info-panel-tab-wrapper .info-panel-tab .info-panel-tab-border {
+  background-color: #db4d52;
+  border-radius: 4px;
+}
+
 .dropdown-menu .active a,
 .dropdown-menu .has-extra-menu.active a,
 .dropdown-menu .has-btn-submenu .menu-style-btn.active,
@@ -759,6 +783,7 @@ th {
 
 .btn-default:hover {
   background: #d0d0d0;
+  /* background: #23242b; */
 }
 
 footer.ty-footer {
@@ -785,18 +810,26 @@ footer.ty-footer {
 
 #megamenu-content {
   padding-top: 28px;
-  background: #fbfbfb;
-  color: #333;
+  /* background: #fbfbfb; */
+  background: #181a1b;
+  /* color: #333; */
+  color:#abc0d0 !important;
+}
+
+.megamenu-opened header {
+  background: var(--bg-color);
 }
 
 #megamenu-content .long-btn {
   border-color: #9292928f;
   transition: border-color 0.4s;
+  color:#abc0d0 !important;
 }
 
 #megamenu-content .long-btn:hover {
   border-color: #db4d52;
-  background: #d8d8d8;
+  /* background: #d8d8d8; */
+  background: #101010;
   color: inherit !important;
 }
 
@@ -812,7 +845,8 @@ footer.ty-footer {
 
 #recent-file-panel-action-btn:hover {
   border-color: #db4d52;
-  background: #d8d8d8;
+  /* background: #d8d8d8; */
+  background: #101010;
   color: inherit;
 }
 
@@ -825,7 +859,8 @@ footer.ty-footer {
 }
 
 #recent-file-panel tbody tr:hover {
-  background-color: #d8d8d8 !important;
+  /* background-color: #d8d8d8 !important; */
+  background-color: #101010 !important;
 }
 
 #recent-file-panel tbody tr:hover td:nth-child(1) {
@@ -881,24 +916,29 @@ footer.ty-footer {
   color: #db4d52;
 }
 
+/*typora设置页面*/
 .ty-preferences .window {
-  background: #fbfbfb;
+  background: var(--bg-color);
+  /* background: #fbfbfb; */
 }
 
 .ty-preferences .nav-group-item {
   background: transparent;
-  color: #333;
+  /* color: #333; */
+  color: var(--text-color);
   cursor: pointer;
 }
 
 .ty-preferences .nav-group-item:hover {
-  background: #d8d8d8;
+  /* background: #d8d8d8; */
+  background: #101010;
   color: inherit;
 }
 
 .ty-preferences .nav-group-item:active,
 .ty-preferences .nav-group-item.active {
-  background: #d0d0d0;
+  /* background: #d0d0d0; */
+  background: #101010;
   color: inherit;
 }
 
@@ -977,9 +1017,16 @@ footer.ty-footer {
   font-family: "Operator Mono", "Source Han Sans";
   font-size: 1.1rem;
   color: #abb2bf;
+  /* color: inherit !important; */
   background-color: #282c34;
   /* background-color: #3e4451; */
 }
+
+.cm-s-inner .CodeMirror-selected, 
+.cm-s-inner .CodeMirror-selectedtext {
+  background-color: #404859 !important;
+}
+
 .cm-s-inner span.cm-variable-2 {
   color: #01a0e4;
 }
@@ -1038,110 +1085,110 @@ footer.ty-footer {
 }
 /* basic syntax */
 .cm-s-inner .cm-header {
-  color: #e06c75;
+  color: #997a7c !important;
 }
 .cm-s-inner .cm-quote {
-  color: #5c6370;
+  color: #5c6370 !important;
   font-style: italic;
 }
 .cm-s-inner .cm-negative {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 .cm-s-inner .cm-positive {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 .cm-s-inner .cm-strong {
-  color: #d19a66;
+  color: #d19a66 !important;
   font-weight: bold;
 }
 .cm-s-inner .cm-header .cm-strong {
-  color: #d19a66;
+  color: #d19a66 !important;
   font-weight: bold;
 }
 .cm-s-inner .cm-em {
-  color: #c678dd;
+  color: #c678dd !important;
   font-style: italic;
 }
 .cm-s-inner .cm-header .cm-em {
-  color: #c678dd;
+  color: #c678dd !important;
   font-style: italic;
 }
 .cm-s-inner .cm-tag {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 .cm-s-inner .cm-attribute {
-  color: #d19a66;
+  color: #d19a66 !important;
 }
 .cm-s-inner .cm-link {
-  color: #98c379;
+  color: #98c379 !important;
   border-bottom: solid 1px #98c379;
 }
 .cm-s-inner .cm-builtin {
-  color: #e06c75;
+  color: #a88689 !important;
 }
 .cm-s-inner .cm-keyword {
-  color: #c678dd;
+  color: #c678dd !important;
 }
 .cm-s-inner .cm-def {
-  color: #e06c75;
+  color: #e06c75 !important;
 } /* original:  #d19a66; */
 .cm-s-inner .cm-atom {
-  color: #d19a66;
+  color: #d19a66 !important;
 }
 .cm-s-inner .cm-number {
-  color: #d19a66;
+  color: #d19a66 !important;
 }
 .cm-s-inner .cm-property {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 } /* original: #abb2bf */
 .cm-s-inner .cm-qualifier {
-  color: #d19a66;
+  color: #d19a66 !important;
 }
 .cm-s-inner .cm-variable {
-  color:#d19a66;
+  color:#d19a66 !important;
   /* color: white; */
 }
 .cm-s-inner .cm-variable-3 {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 .cm-s-inner .cm-string {
-  color: #98c379;
+  color: #98c379 !important;
 }
 .cm-s-inner .cm-punctuation {
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 .cm-s-inner .cm-operator {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 } /* original: #abb2bf */
 .cm-s-inner .cm-meta {
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 .cm-s-inner .cm-bracket {
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 .cm-s-inner .cm-comment {
-  color: #629755;
+  color: #629755 !important;
   font-style: italic;
 }
 .cm-s-inner .cm-error {
-  color: #e06c75;
+  color: #e06c75 !important;
 }
 /* css syntax corrections */
 .cm-s-inner .cm-m-css.cm-variable {
-  color: #828997;
+  color: #828997 !important;
 }
 .cm-s-inner .cm-m-css.cm-property {
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 .cm-s-inner .cm-m-css.cm-atom {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 }
 .cm-s-inner .cm-m-css.cm-builtin {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 }
 /* lua syntax corrections */
 .cm-s-inner .cm-m-lua.cm-variable {
-  color: #56b6c2;
+  color: #56b6c2 !important;
 }
 
 /* 代码框 */
@@ -1220,3 +1267,11 @@ sup.md-footnote {
   background: url("ursine/day.png") no-repeat 55% 90% transparent;
   background-size: cover;
 }
+
+/* .window-header {
+  background-color: var(--bg-color);
+} */
+
+/* .pane-group{
+  background-color: var(--bg-color) !important;
+} */
