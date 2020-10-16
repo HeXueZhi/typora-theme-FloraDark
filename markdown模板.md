@@ -80,9 +80,9 @@
 - [x] C
 - [x] C++
 - [x] Java
-- [x] Qt
-- [x] Android
-- [x] C#
+- [ ] Qt
+- [ ] Android
+- [ ] C#
 - [ ] .NET
 
 ### 7、左边竖线，介绍或者是引用

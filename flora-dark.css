@@ -163,7 +163,8 @@ table th{
   background: rgb(34, 38, 41);
 }
 table tr:nth-child(even) {
-  background-color: rgb(46, 50, 53);
+  /* background-color: rgb(46, 50, 53); */
+  background-color: #282c34;
 }
 table tr:nth-child(odd) {
   background:  #181a1b;
@@ -699,6 +700,7 @@ th {
 #typora-sidebar {
   border-right: 1px solid #19191c;
   font-family: "Operator Mono", "Source Han Sans";
+  background: #282c34;
 }
 #typora-sidebar .sidebar-tabs {
   border-bottom: 1px solid #19191c;
@@ -707,7 +709,8 @@ th {
   font-size: 1rem;
 }
 #typora-sidebar #file-library-search-input {
-  background: #2e3235;
+  /* background: #2e3235; */
+  background: #282c34;
 }
 #typora-sidebar #file-library-search .file-list-item-file-name {
   font-size: 1rem;
@@ -805,6 +808,7 @@ footer.ty-footer {
 
 #top-titlebar,
 #top-titlebar * {
+  background-color: transparent;
   color: inherit;
 }
 
@@ -868,7 +872,7 @@ footer.ty-footer {
 }
 
 #megamenu-menu-sidebar {
-  background-color: #2e3235;
+  background-color: #282c34;
   color: #333;
 }
 
@@ -1039,7 +1043,8 @@ footer.ty-footer {
 .cm-s-inner .CodeMirror-gutters {
   border: none;
   /* background-color: #282c34; */
-  background-color: rgb(46, 50, 53);
+  /* background-color: rgb(46, 50, 53); */
+  background-color: #282c34;
   /* background-color: #3e4451; */
 }
 .cm-s-inner .CodeMirror-linenumber,
@@ -1081,7 +1086,8 @@ footer.ty-footer {
 /*光标在的行*/
 .cm-s-inner .CodeMirror-activeline-background {
   /* background-color: rgba(153, 187, 255, 0.04); */
-  background-color: rgb(46, 50, 53);
+  /* background-color: rgb(46, 50, 53); */
+  background-color: #282c34;
 }
 /* basic syntax */
 .cm-s-inner .cm-header {
@@ -1193,7 +1199,8 @@ footer.ty-footer {
 
 /* 代码框 */
 .md-fences {
-  background-color: rgb(46, 50, 53);
+  /* background-color: rgb(46, 50, 53); */
+  background-color: #282c34;
   padding: 0.7rem 0;
   margin: 8px 10px 18px 5px;
   color: rgba(233, 237, 237, 1);
@@ -1207,14 +1214,16 @@ footer.ty-footer {
   border-left: 1px solid #e4629a;
 }
 #fences-auto-suggest .active {
-  background: rgb(46, 50, 53);
+  background: #282c34;
+  /* background: rgb(46, 50, 53); */
 }
 
 /* 代码框语言选择框 */
 #write .code-tooltip {
   bottom: initial;
   top: calc(100% + 2px);
-  background: rgb(46, 50, 53);
+  /* background: rgb(46, 50, 53); */
+  background: #282c34;
   border: 1px solid rgb(46, 50, 53);
   border-radius: 6px;
   border-top: 0;
@@ -1231,7 +1240,8 @@ footer.ty-footer {
 
 /* 代码框选择语言的自动推荐框 */
 #fences-auto-suggest .active {
-  background: #d0d0d0;
+  /* background: #d0d0d0; */
+  background: #181a1b;
   color: #abb2bf;
   border-radius: 6px;
 }

@@ -15,7 +15,7 @@
 
 ### Dark Preview
 
-![QQ截图20201013225453](https://i.loli.net/2020/10/13/Bg5TrUX98odEjsz.png)
+![QQ截图20201013225453](D:\Users\hxz\Desktop\Bg5TrUX98odEjsz.png)
 
 ### Light Preview
 
@@ -25,7 +25,7 @@
 2. 表格添加分割线，并且加深表头颜色
 3. 代码块的渲染颜色
 
-![QQ截图20201009130648](https://i.loli.net/2020/10/09/pvoDcHLTPiUhEtI.png)
+![QQ截图20201009130648](D:\Users\hxz\Desktop\pvoDcHLTPiUhEtI.png)
 
 ### 安装方法
 
