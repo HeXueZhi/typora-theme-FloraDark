@@ -195,11 +195,13 @@ th {
   font-size: 3rem;
   margin: 3rem 0;
   text-align: center;
+  width: 100%;
 }
 #write h2 {
   font-size: 2.2rem;
   margin: 4rem 0 2rem 0;
   text-align: center;
+  width: 100%;
 }
 #write h3 {
   font-size: 1.6rem;
@@ -777,6 +779,7 @@ footer.ty-footer {
 
 #top-titlebar,
 #top-titlebar * {
+  /* background: var(--bg-color); */
   color: inherit;
 }
 

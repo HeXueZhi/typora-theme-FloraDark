@@ -1,5 +1,9 @@
 # typora-theme-FloraDark
 
+<p align="center"> 
+    <a href="https://github.com/HeXueZhi/typora-theme-FloraDark/releases"><img src="https://badge.fury.io/gh/HeXueZhi%2Ftypora-theme-FloraDark.svg"></a>
+    <img src="https://img.shields.io/github/license/HeXueZhi/typora-theme-FloraDark">
+</p>
 
 
 **声明**：本主题是在[typora-theme-flora](https://github.com/wnanbei/typora-theme-flora)主题基础上做的修改，在此感谢原作者[wnanbei](https://github.com/wnanbei)。
