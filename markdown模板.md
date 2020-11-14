@@ -45,7 +45,7 @@
 
 ### 4、超链接
 
-[有趣的HTML5和CSS3特效在线演示地址](https://gnipbao.github.io/h5-test/3dtag.html) 
+[有趣的HTML5和CSS3特效在线演示地址](https://gnipbao.github.io/h5-test/3dtag.html)
 
 ### 5、锚点<a id="maodian"></a>
 <a href="#wenben">去往文本</a>
@@ -78,8 +78,8 @@
 #### 6.4、复选框列表
 
 - [x] C
-- [x] C++
-- [x] Java
+- [ ] C++
+- [ ] Java
 - [ ] Qt
 - [ ] Android
 - [ ] C#

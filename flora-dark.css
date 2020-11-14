@@ -996,7 +996,7 @@ footer.ty-footer {
 #write > p:only-child::before {
   content: "";
   display: block;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
