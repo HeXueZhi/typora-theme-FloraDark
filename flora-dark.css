@@ -97,6 +97,8 @@ mark {
   background: rgb(175, 175, 0);
   border-radius: 2px;
   color: #282c34;
+  /* font-style: #000 !important; */
+  /* font-weight: bold; */
 }
 
 blockquote {
@@ -169,7 +171,9 @@ table tr:nth-child(even) {
   background-color: #282c34;
 }
 table tr:nth-child(odd) {
-  background:  #181a1b;
+  /* background:  #1a1e20; */
+  /* background:  #1f2125; */
+  background:  #1f2024b0;
 }
 
 /* 设置表格圆角 */
@@ -237,7 +241,7 @@ th {
 #write h5,
 #write h6 {
   font-size: 1.2rem;
-  margin: 0;
+  margin: 0.5rem 0 0 0;
 }
 
 /* 标题前显示标题级别 */
@@ -260,21 +264,25 @@ th {
   vertical-align: baseline;
   line-height: 20px;
   left: -1.5625rem;
-  top: 0.375rem;
+  
   vertical-align: middle;
   display: inline-block;
 }
 #write h3::before {
   content: "H3";
+  top: 0.385rem;
 }
 #write h4::before {
   content: "H4";
+  top: 0.3rem;
 }
 #write h5::before {
   content: "H5";
+  top: 0.2rem;
 }
 #write h6::before {
   content: "H6";
+  top: 0.1rem;
 }
 
 /* 列表样式 */
@@ -305,9 +313,9 @@ th {
   -webkit-appearance: initial;
   display: block;
   position: absolute;
-  border: 1px solid #db4d52;
+  border: 1.5px solid #db4d52;
   border-radius: 0.25rem;
-  margin-top: 0.31rem;
+  margin-top: 0.34rem;
   margin-left: -1.8rem;
   height: 1.2rem;
   width: 1.2rem;
@@ -1295,6 +1303,11 @@ sup.md-footnote {
 #write > p:only-child::before {
   background: url("ursine/day.png") no-repeat 55% 90% transparent;
   background-size: cover;
+}
+
+strong {
+  font-weight: bold;
+  /* color: #db4d52; */
 }
 
 /* .window-header {
